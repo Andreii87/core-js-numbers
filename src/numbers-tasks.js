@@ -18,13 +18,13 @@
  *   5, 10 => 50
  *   5, 5  => 25
  */
-function getRectangleArea(/* width, height */) {
-  throw new Error('Not implemented');
+function getRectangleArea(width, height) {
+  return width * height;
 }
 
 /**
  * Returns a circumference of circle given by radius.
- *
+ 
  * @param {number} radius
  * @return {number}
  *
